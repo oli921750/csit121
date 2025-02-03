@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sources</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sources</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">What is it?</a></li>
+                <li><a href="importance.html">Why is it important?</a></li>
+                <li><a href="usage.html">How is it used?</a></li>
+                <li><a href="sources.html">Sources</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>References</h2>
+            <ul>
+                <li>Author(s). (Year). Title of the source. <i>Publisher/Journal</i>. DOI/URL</li>
+                <li>Author(s). (Year). Title of the source. <i>Publisher/Journal</i>. DOI/URL</li>
+                <li>Author(s). (Year). Title of the source. <i>Publisher/Journal</i>. DOI/URL</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
