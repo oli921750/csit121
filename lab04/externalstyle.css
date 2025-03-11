@@ -1,20 +1,9 @@
 body {
     font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font */
-    background-image:url(lab04/images/emblem.jpg);
+    background-image:url(../lab04/images/emblem.jpg);
     background-color: #ffe6f2; /* Light pink background */
     margin: 20px;
 }
-.background {
-    background-image:url(lab04/images/emblem.jpg);
-    background-size: cover;
-    height: 100vh;
-}
-
-img {
-    width: 100px;
-    height: 100px;
-}
-
 
 nav {
     margin-bottom: 20px;
