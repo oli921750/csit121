@@ -1,0 +1,136 @@
+/* Global styling */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    background-color: #f5d9e6; 
+    margin: 20px;
+}
+
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; 
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+h1, h2 {
+    color: #ff1493; 
+    text-align: center; 
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px; 
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin: 20px 0; 
+}
+
+th, td {
+    border: 2px solid #ff69b4;
+    padding: 10px; 
+    text-align: left; 
+}
+
+th {
+    background-color: #ffccff; 
+}
+
+tr:nth-child(even) {
+    background-color: #ffe6f2;
+}
+
+tr:hover {
+    background-color: #d5006d; 
+}
+
+img {
+    max-width: 100px; 
+    height: auto; 
+    border: 2px solid #ffcccb; 
+    border-radius: 10px; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+form {
+    background-color: #ffccff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(255, 20, 147, 0.3); 
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #d5006d;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ff69b4; 
+    border-radius: 5px; 
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #ff1493; 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff1493;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px; 
+    color: #ff1493; 
+}
+
+footer a {
+    color: #ff69b4; 
+    text-decoration: none; 
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}
+
+@media (min-width: 768px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}

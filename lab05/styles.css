@@ -1,0 +1,113 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font */
+    background-color: #ffe6f2; /* Light pink background */
+    margin: 20px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+h1, h2 {
+    color: #ff1493; /* Deep pink color */
+    text-align: center; /* Centered headings */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders do not double up */
+    margin: 20px 0; /* Adds margin above and below the table */
+}
+
+th, td {
+    border: 2px solid #ff69b4; /* Bright pink border for table cells */
+    padding: 10px; /* Padding for table cells */
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #ffccff; /* Light pink for header cells */
+}
+
+tr:nth-child(even) {
+    background-color: #ffe6f2; /* Light pink for even rows */
+}
+
+tr:hover {
+    background-color: #d5006d; /* Darker pink on row hover */
+}
+
+img {
+    max-width: 100px; /* Set a maximum width for small images */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ffcccb; /* Soft border for images */
+    border-radius: 10px; /* Rounded corners for images */
+    display: block; /* Ensures the image is treated as a block element */
+    margin: 0 auto; /* Center the image within its cell */
+}
+
+form {
+    background-color: #ffccff; /* Light pink for the form */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(255, 20, 147, 0.3); /* Soft shadow */
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #d5006d; /* Darker pink for labels */
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ff69b4; /* Bright pink border */
+    border-radius: 5px; /* Slightly rounded corners */
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #ff1493; /* Button color */
+    color: white; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+input[type="submit"]:hover {
+    background-color: #d5006d; /* Darker pink on hover */
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px; /* Font size for the footer */
+    color: #ff1493; /* Match footer text color */
+}
+
+footer a {
+    color: #ff69b4; /* Lighter pink for links */
+    text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
